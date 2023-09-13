@@ -1,0 +1,41 @@
+{
+  "name": "Create Alert",
+  "type": "flogo:activity",
+  "version": "0.0.1",
+  "title": "A1: Create Alert",
+  "description": "Create Alert on Sofia",
+  "homepage": "https://github.com/AiRISTAFlowInc/FlowActivities/tree/main/CreateAlert",
+  "input": [
+    {
+      "name": "IP",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "CustomerId",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Username",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Password",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "AlertDisplayName",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "AlertBoolean",
+      "type": "boolean"
+    }
+  ]
+}
